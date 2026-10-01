@@ -35,3 +35,22 @@ Fontes
 Os conteúdos e exemplos utilizados no projeto foram baseados nas aulas e materiais da disciplina de Desenvolvimento Front-End para Web.
 
 Os arquivos de imagem e áudio utilizados fazem parte do projeto apenas como recursos para demonstração das funcionalidades HTML.
+
+## Testes realizados
+
+Foram realizados testes no navegador utilizando o Live Server para verificar:
+
+- Funcionamento da página principal.
+- Navegação entre `index.html` e `interesses.html`.
+- Funcionamento dos links internos e externos.
+- Exibição da imagem.
+- Funcionamento da tabela.
+- Reprodução do áudio com os controles.
+- Exibição e funcionamento do formulário de contato.
+- Aplicação do arquivo CSS nas páginas.
+
+## Uso de Inteligência Artificial
+
+A Inteligência Artificial foi utilizada como ferramenta de apoio durante o desenvolvimento do projeto, principalmente para esclarecer dúvidas sobre HTML e CSS, auxiliar na organização do código e explicar o funcionamento de alguns elementos.
+
+O código foi revisado, testado e adaptado pelo estudante, que compreende os recursos utilizados no projeto.
