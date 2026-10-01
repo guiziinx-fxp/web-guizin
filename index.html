@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Guizin</title>
-    
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
+
     <header>
-        <h1> Web-Guizin</h1>
+        <h1>Web-Guizin</h1>
         <p>Bem-vindo ao meu site pessoal</p>
-    </header>    
+    </header>
+
     <nav>
         <a href="#sobre">Sobre mim</a>
         <a href="#interesses">Interesses</a>
         <a href="#objetivos">Objetivos</a>
+        <a href="interesses.html">Página de interesses</a>
     </nav>
-    
+
     <section id="sobre">
         <h2>Sobre mim</h2>
         <p>Meu nome é Guilherme Araújo.</p>
-        <img src="IMG-20260930-WA0000.jpg" alt="Foto de Guilherme">
+        <img src="foto-guilherme.jpeg" alt="Foto de Guilherme">
     </section>
 
     <section id="interesses">
-        <h2>Meus Interesses</h2>
+        <h2>Meus interesses</h2>
         <ul>
             <li>Jogos</li>
             <li>Roupas</li>
@@ -33,27 +37,32 @@
     </section>
 
     <section id="objetivos">
-        <h2>Meus Objetivos</h2>
-        <p>Quero aprender mais sobre manuteção de computadores,
-        suporte técnico e redes</p>
+        <h2>Meus objetivos</h2>
+        <p>
+            Quero aprender mais sobre manutenção de computadores,
+            suporte técnico e redes.
+        </p>
     </section>
 
     <section>
-        <h2>Minnha rotina de estudos </h2>
+        <h2>Minha rotina de estudos</h2>
 
         <table>
             <tr>
-                <td>Dia</td>
-                <td>Atividdde</td>
+                <th>Dia</th>
+                <th>Atividade</th>
             </tr>
+
             <tr>
                 <td>Sexta</td>
                 <td>Redes</td>
             </tr>
+
             <tr>
                 <td>Sábado</td>
                 <td>Manutenção de computadores</td>
             </tr>
+
             <tr>
                 <td>Domingo</td>
                 <td>Programação</td>
@@ -62,13 +71,33 @@
     </section>
 
     <section>
-        <h2>Conntato</h2>
-        <p>Vocẽ pode me encontrar no  GitHub</p>
-        <a  href="https://github.com/">Meu Github</a>
+        <h2>Contato</h2>
+        <p>Você pode me encontrar no GitHub.</p>
+        <a href="https://github.com/">Meu GitHub</a>
+        
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+        
+            <br><br>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        
+            <br><br>
+        
+            <label for="mensagem">Mensagem</label>
+            <br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+        
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer>
-        <P>Web-Guizin - Guilherme Araújo</P>
+        <p>Web-Guizin - Guilherme Araújo</p>
     </footer>
 
 </body>
